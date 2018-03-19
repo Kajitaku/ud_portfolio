@@ -1,81 +1,81 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-	font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-	width: 100%;
+    width: 100%;
 }
 
 .clearfix::after {
-	content: '';
-	display: block;
-	clear: both;
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .header {
-	padding: 4vw 5vw;
-	border-bottom: 1vw solid #7d97ad;
-	margin-bottom: 5vw;
+    padding: 4vw 5vw;
+    border-bottom: 1vw solid #7d97ad;
+    margin-bottom: 5vw;
 }
 
 .logo-anker {
-	width: 14vw;
-	display: inline-block;
+    width: 14vw;
+    display: inline-block;
 }
 
 .logo {
-	width: 100%;
+    width: 100%;
 }
 
 .header_title {
-	float: right;
-	text-align: right;
+    float: right;
+    text-align: right;
 }
 
 .main_header_title {
-	font-size: 10vw;
+    font-size: 10vw;
 }
 
 .sub_header_title {
-	font-size: 5vw;
+    font-size: 5vw;
 }
 
 .main_img {
-	width: 100%;
+    width: 100%;
 }
 
 .works {
-	text-align: center;
-	color: #2d3c49;
+    text-align: center;
+    color: #2d3c49;
 }
 
 .works > .work + .work {
-	margin-top: 12vw;
+    margin-top: 12vw;
 }
 
 .works_header {
-	font-size: 12vw;
-	color: #7d97ad;
-	padding: 10vw 0 4vw;
+    font-size: 12vw;
+    color: #7d97ad;
+    padding: 10vw 0 4vw;
 }
 
 .work_title {
-	font-size: 8vw;
-	padding: 4vw 0;
+    font-size: 8vw;
+    padding: 4vw 0;
 }
 
 .work_url {
-	font-size: 5vw;
-	display: inline-block;
-	text-overflow: ellipsis;
-	width: 80%;
+    font-size: 5vw;
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: 80%;
     overflow: hidden;
 }
 
 .work_thumbnail {
-	width: 100%;
+    width: 100%;
 }
