@@ -22,8 +22,13 @@ body {
 	margin-bottom: 5vw;
 }
 
-.logo {
+.logo-anker {
 	width: 14vw;
+	display: inline-block;
+}
+
+.logo {
+	width: 100%;
 }
 
 .header_title {
