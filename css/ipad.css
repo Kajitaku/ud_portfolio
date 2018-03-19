@@ -1,0 +1,47 @@
+.header {
+	padding: 4vw 0;
+	border-bottom: 3px solid #7d97ad;
+}
+
+.logo {
+	width: 12vw;
+}
+
+.main_header_title {
+	font-size: 7vw;
+}
+
+.sub_header_title {
+	font-size: 2.8vw;
+}
+
+.works {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.works_header {
+	width: 100%;
+	font-size: 5vw;
+	text-align: left;
+	padding: 5vw 0 1.5vw 1vw;
+}
+
+.work {
+	width: calc((100%-3vw)/3);
+}
+
+.works > .work + .work {
+	padding-left: 3vw;
+	margin-top: 0;
+}
+
+.work_title {
+	font-size: 4vw;
+	padding: 2vw 0;
+}
+
+.work_url {
+	font-size: 2vw;
+}
